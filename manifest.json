@@ -1,5 +1,9 @@
 {
     "name": "Quora Anonymous",
+    "icons": { 
+        "64": "icons/quora_icon64.png",
+        "128": "icons/quora_icon128.png",
+        "256": "icons/quora_icon256.png" },
     "manifest_version": 2,
     "version": "0.1",
     "description": "Browse Quora Anonymously",
