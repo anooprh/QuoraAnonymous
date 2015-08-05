@@ -1,0 +1,12 @@
+{
+    "name": "Quora Anonymous",
+    "manifest_version": 2,
+    "version": "0.1",
+    "description": "Browse Quora Anonymously",
+    "content_scripts": [
+    {
+      "matches": ["http://www.quora.com/*", "https://www.quora.com/*"],
+      "js": ["myscript.js"]
+    }
+  ]
+}
